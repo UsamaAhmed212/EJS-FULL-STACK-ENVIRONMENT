@@ -8,8 +8,9 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
     "gulp": "^5.0.0",
-    "gulp-autoprefixer": "^9.0.0",
     "gulp-cli": "^3.0.0",
     "gulp-postcss": "^10.0.0",
     "gulp-sass": "^6.0.0",
@@ -20,7 +21,7 @@
   },
   "scripts": {
     "nodemon": "nodemon index.js",
-    "gulp": "gulp",
+    "gulp": "gulp dev",
     "start": "npm-run-all --parallel nodemon gulp"
   },
   "author": "",

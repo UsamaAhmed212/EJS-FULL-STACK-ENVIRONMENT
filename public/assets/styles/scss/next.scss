@@ -1,0 +1,32 @@
+:root {
+    --main-color: #3498db;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    color: var(--main-color);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+:fullscreen {
+    color: red;
+}

@@ -1,0 +1,2 @@
+:root{--main-color:#3498db}body{color:var(--main-color);font-family:Arial,sans-serif}.container{display:grid;gap:20px;grid-template-columns:1fr 2fr}h1{font-size:2rem;text-transform:uppercase}a{color:var(--main-color);text-decoration:none}a:hover{text-decoration:underline}:fullscreen{color:red}
+/*# sourceMappingURL=next.css.map */

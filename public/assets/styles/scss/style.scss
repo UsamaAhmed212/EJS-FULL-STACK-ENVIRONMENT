@@ -10,14 +10,18 @@ header {
   color: #fff;
   padding: 10px 20px;
   text-align: center;
-}
-header nav a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-}
-header nav a:hover {
-  text-decoration: underline;
+
+  nav {
+      a {
+          color: #fff;
+          margin: 0 10px;
+          text-decoration: none;
+
+          &:hover {
+              text-decoration: underline;
+          }
+      }
+  }
 }
 
 footer {
@@ -28,4 +32,3 @@ footer {
   position: relative;
   bottom: 0;
 }
-/*# sourceMappingURL=style.css.map */
